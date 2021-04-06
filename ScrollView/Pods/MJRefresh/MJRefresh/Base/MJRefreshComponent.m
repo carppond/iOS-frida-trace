@@ -267,7 +267,6 @@
                                                         context:nil].size.width;
     } else {
         if (self.text.length == 0) { return 0; }
-        NSAssert(self.font != nil, @"请检查 mj_label's `font` 是否设置正确");
         stringWidth = [self.text boundingRectWithSize:size
                                               options:NSStringDrawingUsesLineFragmentOrigin
                                            attributes:@{NSFontAttributeName:self.font}

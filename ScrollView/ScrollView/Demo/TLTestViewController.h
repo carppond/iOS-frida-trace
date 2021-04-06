@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TLTestViewController : UIViewController
+@interface TLTestViewController : UITableViewController
 
 @end
 
